@@ -1,12 +1,18 @@
 {
   "name": "crypto-esm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "module": "dist/crypto-esm.mjs",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c"
   },
+  "keywords": [
+    "crypto",
+    "crypto-js",
+    "esm",
+    "mjs"
+  ],
   "dependencies": {
     "crypto-js": "^3.1.9-1"
   },
