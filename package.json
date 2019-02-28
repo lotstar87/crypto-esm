@@ -1,11 +1,12 @@
 {
   "name": "crypto-esm",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "module": "dist/crypto-esm.mjs",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublish": "rollup -c"
   },
   "keywords": [
     "crypto",
